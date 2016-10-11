@@ -60,7 +60,11 @@ module.exports = {
             '.js',
             '.ts',
             '.tsx'
-        ]
+        ],
+        alias: {
+            'react': 'react-lite',
+            'react-dom': 'react-lite'
+        }
     },
     entry: {
         app: `./${conf.path.src('index')}`,
